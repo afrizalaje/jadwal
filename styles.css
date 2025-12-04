@@ -1,0 +1,44 @@
+body{
+    background-color: brown;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 12px;
+}
+h1,h2{
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    font-size: 15px;
+}
+#jadwal{
+    background-image: url(afrizalaje.jpg);
+    background-size: contain;
+    background-repeat:unset;
+    width: 90vw;
+    height: 100vh;
+}
+table{
+    border-collapse: collapse;
+    width: 80vw;
+    margin: 8px auto;
+}
+table,th,td{
+    border: 2px solid black;
+}
+thead{
+    background-color: lightblue;
+    font-weight: bold;
+}
+tbody tr:nth-child(odd){
+    background-color: blueviolet;
+    color: white;
+}
+tbody tr:nth-child(even){
+    background-color: lightgreen;
+    color: darkmagenta;
+}
+td{
+    text-align: center;
+    height: 2vh;
+}
